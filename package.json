@@ -17,11 +17,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "eslint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*": "prettier --write"
+    "*": [
+      "prettier --write",
+      "eslint"
+    ]
   }
 }

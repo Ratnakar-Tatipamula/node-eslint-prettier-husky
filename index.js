@@ -1,6 +1,6 @@
 // import { foo } from './Test';
 
-var price = 25;
+var cost = 25;
 
 function welcome() {
   return 'Hello Node';
