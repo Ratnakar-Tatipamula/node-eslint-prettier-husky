@@ -12,6 +12,4 @@ if (isBoolean) {
   console.log('hii');
 }
 
-console.log(age);
-
 welcome();
