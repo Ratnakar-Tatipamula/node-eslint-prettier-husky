@@ -1,6 +1,6 @@
 // import { foo } from './Test';
 
-var age = 25;
+var price = 25;
 
 function welcome() {
   return 'Hello Node';
